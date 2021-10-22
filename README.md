@@ -43,6 +43,9 @@
 > npm install
 > node .
 ```
+##DEPLOY TO HEROKU##
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/GingerBreadSketchy/set)
+     </div>
 
 
 ## Connect With Me

@@ -57,15 +57,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yogipw/Self-Bot.git"
+    "url": "git+https://github.com/GingerBreadSketchy/set"
   },
   "keywords": [
     "Wasu"
   ],
-  "author": "WKWK",
+  "author": "GinGer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hexagonz"
+    "url": "https://github.com/GingerBreadSketchy"
   },
-  "homepage": "https://github.com/Hexagonz"
+  "homepage": "https://github.com/GingerBreadSketchy"
 }

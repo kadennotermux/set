@@ -341,12 +341,12 @@ budy =
     //end load
     //MESS
     mess = {
-      wait: "Ruko...",
-      success: "Ho gya✓",
+      wait: "please wait👻...",
+      success: "SUCCESSFULLY DONE😈✓",
       wrongFormat: "Wrong format 🙃",
       error: {
         stick: "Brrrr 😒",
-        Iv: "Link amaany hai🙁",
+        Iv: "Link hai🙁",
       },
       only: {
         group: "Special chat group",
@@ -570,8 +570,8 @@ budy =
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "gingerbreadsketchu", //Love your name
-            description: "sketchy-BOT",
+            title: "☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠", //Love your name
+            description: "Sketchy-BOT",
             currencyCode: "ksh",
             priceAmount1000: "2000",
             retailerId: "SKETCHY",
@@ -970,169 +970,186 @@ budy =
       case "help":
       case "?":
         var menu = `AJE AJE COMRADE HELLO🙂 @${senderr.split("@")[0]}
-
+╭────────────────
 ⦿ IG: @gingerbreadsketchy
-⦿ USER bot.
-   
+⦿ USER bot
+😈☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠😈
+╰──────────────── 
 ${readmore}
+╭────────────────
+*𝐎𝐖𝐍𝐄𝐑 𝐎𝐍𝐋𝐘*🐼
+▷ ${prefix}off
+▷ ${prefix}on
+▷ ${prefix}status
+▷ ${prefix}setthumb
+▷ ${prefix}settarget
+▷ ${prefix}setfakeimg
+▷ ${prefix}setreply
+▷ ${prefix}setprefix [2 Button]
+▷ ${prefix}mode [2 Button self/public]
+▷ ${prefix}term <code>
+▷ ${prefix}eval <code>
+▷ ${prefix}colongsw [reply sw]
+╰────────────────
+╭────────────────  
+*𝐆𝐑𝐎𝐔𝐏*👿
+▷ ${prefix}grup [3 Button]
+▷ ${prefix}promote <reply chat member>
+▷ ${prefix}demote <reply chat member>
+▷ ${prefix}setdesc
+▷ ${prefix}setname
+▷ ${prefix}kick <reply/tag member>
+▷ ${prefix}add <reply/tag member>
+▷ ${prefix}getbio <reply chat member>
+▷ ${prefix}getname <reply chat member>
+▷ ${prefix}reminder <msg/2s>
+▷ ${prefix}listonline
+▷ ${prefix}linkgc
+▷ ${prefix}sider [reply chat bot]
+▷ ${prefix}antilink
+▷ ${prefix}antihidetag
+▷ ${prefix}antiviewonce
+▷ ${prefix}antivirus
+▷ ${prefix}kickarea <anti +1 number>
+▷ ${prefix}leveling <1(on)/0(off)>
+▷ ${prefix}delete <reply to bot msg>
+▷ ${prefix}bc <broadcast both>
+▷ ${prefix}bcgc <broadcast grup>
+▷ ${prefix}profile
+╰────────────────
+╭────────────────  
+*𝐌𝐀𝐊𝐄𝐑*😝
+▷ ${prefix}wolf <text>
+▷ ${prefix}tfire <text>
+▷ ${prefix}ytgold <text>
+▷ ${prefix}ytsilver <text>
+▷ ${prefix}t3d  <text>
+▷ ${prefix}logoa <text&text>
+▷ ${prefix}phlogo <text&text>
+▷ ${prefix}write <text>
+▷ ${prefix}phcomment <text&text>
+▷ ${prefix}marvel <text&text>
+▷ ${prefix}leavest<text>
+▷ ${prefix}neon <text>
+▷ ${prefix}wall <text>
+▷ ${prefix}sticker
+▷ ${prefix}swm <author|packname>
+▷ ${prefix}take <author|packname>
+▷ ${prefix}fdeface
+▷ ${prefix}emoji
+╰────────────────
+╭────────────────  
+*𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐄𝐑*🐙🐙
+▷ ${prefix}toimg
+▷ ${prefix}tomp3
+▷ ${prefix}tomp4
+▷ ${prefix}slow
+▷ ${prefix}fast
+▷ ${prefix}reverse
+▷ ${prefix}tourl
+▷ ${prefix}tts
+▷ ${prefix}attp
+╰────────────────
+╭────────────────   
+*𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 𝐌𝐄𝐍𝐔*🏷
+▷ ${prefix}youtube <url>
+▷ ${prefix}tiktok <url>
+▷ ${prefix}instagram <url>
+▷ ${prefix}twitter <url>
+╰────────────────
+╭────────────────
+*𝐔𝐏 𝐒𝐓𝐎𝐑𝐘*
+▷ ${prefix}upswtxts
+▷ ${prefix}upswimage
+▷ ${prefix}upswvideo
+╰────────────────
+╭────────────────
+*𝐂𝐎𝐍𝐓𝐀𝐂𝐓*🤑
+▷ ${prefix}slander
+▷ ${prefix}slanderpc
+▷ ${prefix}contact
+╰────────────────
+╭────────────────  
+*𝐓𝐚𝐠*🥵
+▷ ${prefix}tagall
+▷ ${prefix}hidetag
+▷ ${prefix}contacttag
+▷ ${prefix}sticktag
+▷ ${prefix}mediatag
+╰────────────────
 
-*OWNER*🐼
-• ${prefix}off
-• ${prefix}on
-• ${prefix}status
-• ${prefix}setthumb
-• ${prefix}settarget
-• ${prefix}setfakeimg
-• ${prefix}setreply
-• ${prefix}setprefix [2 Button]
-• ${prefix}mode [2 Button self/public]
-• ${prefix}term <code>
-• ${prefix}eval <code>
-• ${prefix}colongsw [reply sw]
-    
-*GROUP*👿
-• ${prefix}grup [3 Button]
-• ${prefix}promote <reply chat member>
-• ${prefix}demote <reply chat member>
-• ${prefix}setdesc
-• ${prefix}setname
-• ${prefix}kick <reply/tag member>
-• ${prefix}add <reply/tag member>
-• ${prefix}getbio <reply chat member>
-• ${prefix}getname <reply chat member>
-• ${prefix}reminder <msg/2s>
-• ${prefix}listonline
-• ${prefix}linkgc
-• ${prefix}sider [reply chat bot]
-• ${prefix}antilink
-• ${prefix}antihidetag
-• ${prefix}antiviewonce
-• ${prefix}antivirus
-• ${prefix}kickarea <anti +1 number>
-• ${prefix}leveling <1(on)/0(off)>
-• ${prefix}delete <reply to bot msg>
-• ${prefix}bc <broadcast both>
-• ${prefix}bcgc <broadcast grup>
-• ${prefix}profile
-    
-*MAKER*😝
-• ${prefix}wolf <text>
-• ${prefix}tfire <text>
-• ${prefix}ytgold <text>
-• ${prefix}ytsilver <text>
-• ${prefix}t3d  <text>
-• ${prefix}logoa <text&text>
-• ${prefix}phlogo <text&text>
-• ${prefix}write <text>
-• ${prefix}phcomment <text&text>
-• ${prefix}marvel <text&text>
-• ${prefix}leavest<text>
-• ${prefix}neon <text>
-• ${prefix}wall <text>
-• ${prefix}sticker
-• ${prefix}swm <author|packname>
-• ${prefix}take <author|packname>
-• ${prefix}fdeface
-• ${prefix}emoji
-    
-*CONVERT*🐙🐙
-• ${prefix}toimg
-• ${prefix}tomp3
-• ${prefix}tomp4
-• ${prefix}slow
-• ${prefix}fast
-• ${prefix}reverse
-• ${prefix}tourl
-• ${prefix}tts
-• ${prefix}attp
-    
-*DOWNLOADER*🏷
-• ${prefix}youtube <url>
-• ${prefix}tiktok <url>
-• ${prefix}instagram <url>
-• ${prefix}twitter <url>
-
-*UP STORY*
-• ${prefix}upswtxts
-• ${prefix}upswimage
-• ${prefix}upswvideo
-    
-*CONTACT*🤑
-• ${prefix}slander
-• ${prefix}slanderpc
-• ${prefix}contact
-    
-*TAG*🥵
-• ${prefix}tagall
-• ${prefix}hidetag
-• ${prefix}contacttag
-• ${prefix}sticktag
-• ${prefix}mediatag
-
-*FUN*👻
-• ${prefix}truth
-• ${prefix}dare
-• ${prefix}lesbiancheck
-• ${prefix}handsomecheck
-• ${prefix}gaycheck
-• ${prefix}beautifulcheck
-• ${prefix}uglycheck
-• ${prefix}uglycheck
-• ${prefix}slap
-    
-*OTHER*🏅
-• ${prefix}ping
-• ${prefix}inspect
-• ${prefix}join
-• ${prefix}searchmessage <query>
-• ${prefix}get
-• ${prefix}ytsearch <query>
-• ${prefix}igstalk <query>
-• ${prefix}githubstalk <query>
-• ${prefix}tiktokstalk <query>
-• ${prefix}play <query>
-• ${prefix}video <query>
-• ${prefix}igstory <username>
-• ${prefix}twitter <link>
-• ${prefix}tiktok <link>
-• ${prefix}tiktokaudio <link>
-• ${prefix}fb <link>
-• ${prefix}brainly <query>
-• ${prefix}image <query>
-• ${prefix}anime <random>
-• ${prefix}pinterest <query>
-• ${prefix}comic <query>
-• ${prefix}lyrics <query>
-• ${prefix}chara <query>
-• ${prefix}playstore <query>
-• ${prefix}otaku <query>
-    
-*SIMPLE BOT*🎈
-• ${prefix}jadibot
-• ${prefix}stopjadibot
-• ${prefix}listbot
-
-*STICKER CMD*🤒
-• ${prefix}addcmd
-• ${prefix}delcmd
-• ${prefix}listcmd
-    
-*VOTE*
-• ${prefix}voting
-• ${prefix}delvote
-• ${prefix}vote
-• ${prefix}devote
-    
- *INFO BOT*
-• Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-• Runtime : ${runtime(process.uptime())}
-• Hit Today : ${hit_today.length} Hit
-• Total Hit : ${totalhit} Hit
-• Total Chat : ${totalchat.length} Chat
-
-*🥶MOD BY GINGERSKETCHY🥶*
+╭────────────────
+*𝐅𝐔𝐍*👻
+▷ ${prefix}truth
+▷ ${prefix}dare
+▷ ${prefix}lesbiancheck
+▷ ${prefix}handsomecheck
+▷ ${prefix}gaycheck
+▷ ${prefix}beautifulcheck
+▷ ${prefix}uglycheck
+▷ ${prefix}uglycheck
+▷ ${prefix}slap
+╰────────────────
+╭────────────────   
+*𝐎𝐓𝐇𝐄𝐑*🏅
+▷ ${prefix}ping
+▷ ${prefix}inspect
+▷ ${prefix}join
+▷ ${prefix}searchmessage <query>
+▷ ${prefix}get
+▷ ${prefix}ytsearch <query>
+▷ ${prefix}igstalk <query>
+▷ ${prefix}githubstalk <query>
+▷ ${prefix}tiktokstalk <query>
+▷ ${prefix}play <query>
+▷ ${prefix}video <query>
+▷ ${prefix}igstory <username>
+▷ ${prefix}twitter <link>
+▷ ${prefix}tiktok <link>
+▷ ${prefix}tiktokaudio <link>
+▷ ${prefix}fb <link>
+▷ ${prefix}brainly <query>
+▷ ${prefix}image <query>
+▷ ${prefix}anime <random>
+▷ ${prefix}pinterest <query>
+▷ ${prefix}comic <query>
+▷ ${prefix}lyrics <query>
+▷ ${prefix}chara <query>
+▷ ${prefix}playstore <query>
+▷ ${prefix}otaku <query>
+╰────────────────
+╭────────────────   
+*𝐒𝐈𝐌𝐏𝐋𝐄 𝐁𝐎𝐓*🎈
+▷ ${prefix}jadibot
+▷ ${prefix}stopjadibot
+▷ ${prefix}listbot
+╰────────────────
+╭────────────────
+*𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐂𝐌𝐃*🤒
+▷ ${prefix}addcmd
+▷ ${prefix}delcmd
+▷ ${prefix}listcmd
+╰────────────────
+╭────────────────  
+*𝐕𝐎𝐓𝐄 𝐌𝐄𝐍𝐔*
+▷ ${prefix}voting
+▷ ${prefix}delvote
+▷ ${prefix}vote
+▷ ${prefix}devote
+╰────────────────  
+╭────────────────
+ *𝐈𝐍𝐅𝐎 𝐁𝐎𝐓*
+▷ Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
+▷ Runtime : ${runtime(process.uptime())}
+▷ Hit Today : ${hit_today.length} Hit
+▷ Total Hit : ${totalhit} Hit
+▷ Total Chat : ${totalchat.length} Chat
+╰────────────────
+   ╭────────────────
+  *🥶ᴍᴏᴅ ʙʏ ɢɪɴɢᴇʀsᴋᴇᴛᴄʜʏ>🥶*
+   ╰────────────────
 `;
-        sendButImage(from, menu, "SKETCHY BOT•", thumb, [
+        sendButImage(from, menu, "SKETCHY BOT▷", thumb, [
           {
             buttonId: `${prefix}ping`,
             buttonText: {
@@ -1468,7 +1485,7 @@ ${readmore}
 					} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 					}
-					 profile = `╭─「 *💖YOUR PROFILE💖* 」\n│• *Name:* ${pushname}\n│• *PM Link:* wa.me/${sender.split("@")[0]}\n╰──────────────────`
+					 profile = `╭─「 *💖YOUR PROFILE💖* 」\n│▷ *Name:* ${pushname}\n│▷ *PM Link:* wa.me/${sender.split("@")[0]}\n╰──────────────────`
 					buffer = await getBuffer(ppimg)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: profile})
 					break;
@@ -1612,7 +1629,7 @@ ${members > 1 ? `${members - reads.length - deliveries.length} tersisa` : ""}
         buffergbl = await getBuffer(ppUrl);
         client.sendMessage(from, buffergbl, image, {
           quoted: mek,
-          caption: `\`\`\`「 Group Info 」\`\`\`\n*•> Name* : ${groupName}\n*•> Member* : ${groupMembers.length}\n*•> Admin* : ${groupAdmins.length}\n*•> Description* : \n${groupDesc}`,
+          caption: `\`\`\`「 Group Info 」\`\`\`\n*▷> Name* : ${groupName}\n*▷> Member* : ${groupMembers.length}\n*▷> Admin* : ${groupAdmins.length}\n*▷> Description* : \n${groupDesc}`,
         });
         break;
       // Demote Admins
@@ -2080,7 +2097,7 @@ Reminder activated successfully!
               case "truth":
 					// source code by Sketchy⛔
                  if (!isGroup) return reply( mess.only.group);
-					const trut =['What song do you sing most in the shower','Have you ever had a near-death experience','When was the last time you were really angry.. Why','Who is the last person who called you','Do you have any hidden talents. What are they','What word do you hate the most','What is the last YouTube video you watched','What is the last thing you Googled','Who in this group would you want to swap lives with for a week','What is the scariest thing thats ever happened to you','Have you ever farted and blamed it on someone else','When is the last time you made someone else cry','Have you ever ghosted a friend','Have you ever seen a dead body','Which of your family members annoys you the most and why','If you had to delete one app from your phone, which one would it be','What app do you waste the most time on','Have you ever faked sick to get home from school','What is the most embarrassing item in your room','What five items would you bring if you got stuck on a desert island','Have you ever laughed so hard you peed your pants','Do you smell your own farts','have u ever peed on the bed while sleeping 🤣🤣','What is the biggest mistake you have ever made','Have you ever cheated in an exam','What is the worst thing you have ever done','When was the last time you cried','whom do you love the most among ur parents','do u sometimes put ur finger in ur nosetril🤣','who was ur crush during the school days','tell honestly, do u like any boy in this grup','have you ever liked anyone? how long?','do you have gf/bf','what is your biggest fear?','have you ever liked someone and felt that person likes you too?','What is the name of your ex-boyfriend of your friend that you once liked quietly?','ever did you steal your mothers money or your fathers money','what makes you happy when you are sad','do you like someone who is in this grup? if you then who?','have you ever been cheated on by people?','the most feared thing','who is the most important person in your life','what proud things did you get this year','who is the person who can make you happy when u r sad','who is the person who ever made you feel uncomfortable','have you ever lied to your parents','do you still like ur ex','who do you like to play together with?','have you ever stolen big thing in ur life? the reason why?','Mention the incident that makes you hurt that you still remember','what achievements have you got this year?','what was your worst habit at school?','do you love the bot creator, Sketchy?•','have you ever thought of taking revenge from ur teacher?','do you like current prime minister of ur country','you non veg or veg','if you could be invisible, what is the first thing you would do','what is a secret you kept from your parents','Who is your secret crush','whois the last person you creeped on social media','If a genie granted you three wishes, what would you ask for','What is your biggest regret','What animal do you think you most look like','How many selfies do you take a day','What was your favorite childhood show','if you could be a fictional character for a day, who would you choose','whom do you text the most','What is the biggest lie you ever told your parents','Who is your celebrity crush','Whats the strangest dream you have ever had','do you play pubg, if you then send ur id number']
+					const trut =['What song do you sing most in the shower','Have you ever had a near-death experience','When was the last time you were really angry.. Why','Who is the last person who called you','Do you have any hidden talents. What are they','What word do you hate the most','What is the last YouTube video you watched','What is the last thing you Googled','Who in this group would you want to swap lives with for a week','What is the scariest thing thats ever happened to you','Have you ever farted and blamed it on someone else','When is the last time you made someone else cry','Have you ever ghosted a friend','Have you ever seen a dead body','Which of your family members annoys you the most and why','If you had to delete one app from your phone, which one would it be','What app do you waste the most time on','Have you ever faked sick to get home from school','What is the most embarrassing item in your room','What five items would you bring if you got stuck on a desert island','Have you ever laughed so hard you peed your pants','Do you smell your own farts','have u ever peed on the bed while sleeping 🤣🤣','What is the biggest mistake you have ever made','Have you ever cheated in an exam','What is the worst thing you have ever done','When was the last time you cried','whom do you love the most among ur parents','do u sometimes put ur finger in ur nosetril🤣','who was ur crush during the school days','tell honestly, do u like any boy in this grup','have you ever liked anyone? how long?','do you have gf/bf','what is your biggest fear?','have you ever liked someone and felt that person likes you too?','What is the name of your ex-boyfriend of your friend that you once liked quietly?','ever did you steal your mothers money or your fathers money','what makes you happy when you are sad','do you like someone who is in this grup? if you then who?','have you ever been cheated on by people?','the most feared thing','who is the most important person in your life','what proud things did you get this year','who is the person who can make you happy when u r sad','who is the person who ever made you feel uncomfortable','have you ever lied to your parents','do you still like ur ex','who do you like to play together with?','have you ever stolen big thing in ur life? the reason why?','Mention the incident that makes you hurt that you still remember','what achievements have you got this year?','what was your worst habit at school?','do you love the bot creator, Sketchy?▷','have you ever thought of taking revenge from ur teacher?','do you like current prime minister of ur country','you non veg or veg','if you could be invisible, what is the first thing you would do','what is a secret you kept from your parents','Who is your secret crush','whois the last person you creeped on social media','If a genie granted you three wishes, what would you ask for','What is your biggest regret','What animal do you think you most look like','How many selfies do you take a day','What was your favorite childhood show','if you could be a fictional character for a day, who would you choose','whom do you text the most','What is the biggest lie you ever told your parents','Who is your celebrity crush','Whats the strangest dream you have ever had','do you play pubg, if you then send ur id number']
 					const ttrth = trut[Math.floor(Math.random() * trut.length)]
 					truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 					client.sendMessage(from, truteh, image, { caption: '*Truth (juth bolenge to paap lagega)*\n\n'+ ttrth, quoted: mek })

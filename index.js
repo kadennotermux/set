@@ -975,10 +975,11 @@ budy =
 ⦿ IG: @gingerbreadsketchy
 ⦿ USER bot
 ────────────────
-   ▌│█║▌║▌║▌│█║▌║▌║
-          ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ
-      【2】【0】【2】【1】
-   
+╭──────────────── 
+  ▌│█║▌║▌║▌│█║▌║▌║
+  ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ
+【2】【0】【2】【1】
+╰────────────────
 ────────────────
 🇰🇪  Made 4 Kenyans with 💖🇰🇪
 ────────────────
@@ -1221,7 +1222,7 @@ ${readmore}
       //------------------< Anti-antian feature >-------------------
       case "antilink":
         if (!isGroup) return reply("Keval grups mein");
-        if (!isGroupAdmins && !mek.key.fromMe) return reply("sirf admin ke liye mere dost!😉");
+        if (!isGroupAdmins && !mek.key.fromMe) return reply("👿 *Only Sketchy Admins Can use This* 👿");
         if (args[0] == "on") {
           if (isAntilink) return reply("Activated!!");
           antilink.push(from);

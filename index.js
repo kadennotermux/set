@@ -3835,7 +3835,7 @@ ${
                   reply(`Kumbaff usitaje taje bot Hapa😹😹`)
                   }
 		          if (budy.includes(`Hello`)) {
-                  reply(`Hello Niaje bana😂🌿🖐️ ${pushname}`)
+                  reply(`Mtu wangu niiaje bana😂🌿🖐️ ${pushname}`)
                   }
                   if (budy.includes(`@254792893310`)) {
                   reply(`sorry dude ginger is busy🤔`)

@@ -95,7 +95,7 @@ const starts = async (client = new WAConnection()) => {
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Namaste dost!", "conversation");
+        client.sendMessage(anu.jid, "Hi,Hellow Friend👻!", "conversation");
       }
       if (anu.action == "add" && !mem.includes(client.user.jid)) {
         mdata = await client.groupMetadata(anu.jid);
@@ -104,7 +104,7 @@ const starts = async (client = new WAConnection()) => {
         let v = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
         time_wel = moment.tz("Africa/Nairobi").format("HH:mm");
-        teks = `*NAMASTE* @${num.split('@')[0]} 👋\n*${mdata.subject}* mein apka swagat hai!!\n\nAur bolo brother/sister kaise ho? corona leke to nahi aya na?\n\nGrup ke sadasyon ke saath khulakar baat karen aur admins ka sammaan karen\n\nAur ha mere dost @${num.split('@')[0]} apana parichay dena na bhoolen :) `;
+        teks = `*Welcome User* @${num.split('@')[0]} 👋\n*${mdata.subject}* How are youi!!\n\nAre u a boy or girl? How is corona?\n\njust follow group rules and respect Admins\n\nWelcome to our Group@${num.split('@')[0]} apana parichay dena na bhoolen :) `;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -122,7 +122,7 @@ const starts = async (client = new WAConnection()) => {
         ).imageMessage;
         buttonsMessage = {
           contentText: `${teks}`,
-          footerText: "SKETCHY-BOT ☕",
+          footerText: "☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠☕",
           imageMessage: imageMsg,
           buttons: buttons,
           headerType: 4,
@@ -141,7 +141,7 @@ const starts = async (client = new WAConnection()) => {
         anu_user = w.vname || w.notify || num.split("@")[0];
         time_wel = moment.tz("Africa/Nairobi").format("HH:mm");
         memeg = mdata.participants.length;
-        out = `*Alvida @${num.split('@')[0]}*\n\nHam apko kabhee yaad nahin karenge`;
+        out = `*BYE BYE @${num.split('@')[0]}*\n\nDont you ever come back again Here👿😈😠;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -159,7 +159,7 @@ const starts = async (client = new WAConnection()) => {
         ).imageMessage;
         buttonsMessage = {
           contentText: `${out}`,
-          footerText: "SKETCHY BOT ☕",
+          footerText: "☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠ ☕",
           imageMessage: imageMsg,
           buttons: buttons,
           headerType: 4,
@@ -245,7 +245,7 @@ const starts = async (client = new WAConnection()) => {
       m.key.remoteJid,
       `\`\`\`「 Anti Delete 」\`\`\`
   •> Name : @${m.participant.split("@")[0]}
-  •> HATAYA GYA MESSAGE NICHE BHEJ DIYA GYA HAI MERE DOST!
+  •> Deleted message has been sent to me Friend👻!
   •> Type : ${type}`,
       MessageType.text,
       { quoted: m.message, contextInfo: { mentionedJid: [m.participant] } }

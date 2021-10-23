@@ -907,7 +907,7 @@ budy =
     if (isGroup && isAntilink && !mek.key.fromMe) {
       if (budy.includes("://chat.whatsapp.com/")) {
         if (isGroupAdmins) return reply("free admin");
-        reply("link ka pata chala, shama karen aapako laat maaree jaegee");
+        reply("▷Link Detected😈😈Sketchy Banned you from this Group Tokaaa!!!");
         client.groupRemove(from, [sender]);
       }
     }
@@ -969,187 +969,199 @@ budy =
       case "menu":
       case "help":
       case "?":
-        var menu = `AJE AJE COMRADE HELLO🙂 @${senderr.split("@")[0]}
+        var menu = `
+ʜᴇʏ ᴛʜᴀɴᴋꜱ 4 ᴄʜᴏᴏꜱɪɴɢ ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ🙂 @${senderr.split("@")[0]}
 ╭────────────────
 ⦿ IG: @gingerbreadsketchy
 ⦿ USER bot
-😈☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠😈
+────────────────
+   ▌│█║▌║▌║▌│█║▌║▌║
+          ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ
+      【2】【0】【2】【1】
+   
+────────────────
+🇰🇪  Made 4 Kenyans with 💖🇰🇪
+────────────────
+╭──────────────── 
+   😈☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠😈
 ╰──────────────── 
 ${readmore}
 ╭────────────────
-*𝐎𝐖𝐍𝐄𝐑 𝐎𝐍𝐋𝐘*🐼
-▷ ${prefix}off
-▷ ${prefix}on
-▷ ${prefix}status
-▷ ${prefix}setthumb
-▷ ${prefix}settarget
-▷ ${prefix}setfakeimg
-▷ ${prefix}setreply
-▷ ${prefix}setprefix [2 Button]
-▷ ${prefix}mode [2 Button self/public]
-▷ ${prefix}term <code>
-▷ ${prefix}eval <code>
-▷ ${prefix}colongsw [reply sw]
+    *𝐎𝐖𝐍𝐄𝐑 𝐎𝐍𝐋𝐘*🐼
+  ────────────────
+♐▷ ${prefix}off
+♐▷ ${prefix}on
+♐▷ ${prefix}status
+♐▷ ${prefix}setthumb
+♐▷ ${prefix}settarget
+♐▷ ${prefix}setfakeimg
+♐▷ ${prefix}setreply
+♐▷ ${prefix}setprefix [2 Button]
+♐▷ ${prefix}mode [2 Button self/public]
+♐▷ ${prefix}term <code>
+♐▷ ${prefix}eval <code>
+♐▷ ${prefix}colongsw [reply sw]
 ╰────────────────
 ╭────────────────  
-*𝐆𝐑𝐎𝐔𝐏*👿
-▷ ${prefix}grup [3 Button]
-▷ ${prefix}promote <reply chat member>
-▷ ${prefix}demote <reply chat member>
-▷ ${prefix}setdesc
-▷ ${prefix}setname
-▷ ${prefix}kick <reply/tag member>
-▷ ${prefix}add <reply/tag member>
-▷ ${prefix}getbio <reply chat member>
-▷ ${prefix}getname <reply chat member>
-▷ ${prefix}reminder <msg/2s>
-▷ ${prefix}listonline
-▷ ${prefix}linkgc
-▷ ${prefix}sider [reply chat bot]
-▷ ${prefix}antilink
-▷ ${prefix}antihidetag
-▷ ${prefix}antiviewonce
-▷ ${prefix}antivirus
-▷ ${prefix}kickarea <anti +1 number>
-▷ ${prefix}leveling <1(on)/0(off)>
-▷ ${prefix}delete <reply to bot msg>
-▷ ${prefix}bc <broadcast both>
-▷ ${prefix}bcgc <broadcast grup>
-▷ ${prefix}profile
+     *𝐆𝐑𝐎𝐔𝐏*👿
+ ────────────────
+♐▷ ${prefix}grup [3 Button]
+♐▷ ${prefix}promote <reply chat member>
+♐▷ ${prefix}demote <reply chat member>
+♐▷ ${prefix}setdesc
+♐▷ ${prefix}setname
+♐▷ ${prefix}kick <reply/tag member>
+♐▷ ${prefix}add <reply/tag member>
+♐▷ ${prefix}getbio <reply chat member>
+♐▷ ${prefix}getname <reply chat member>
+♐▷ ${prefix}reminder <msg/2s>
+♐▷ ${prefix}listonline
+♐▷ ${prefix}linkgc
+♐▷ ${prefix}sider [reply chat bot]
+♐▷ ${prefix}antilink
+♐▷ ${prefix}antihidetag
+♐▷ ${prefix}antiviewonce
+♐▷ ${prefix}antivirus
+♐▷ ${prefix}kickarea <anti +1 number>
+♐▷ ${prefix}leveling <1(on)/0(off)>
+♐▷ ${prefix}delete <reply to bot msg>
+♐▷ ${prefix}bc <broadcast both>
+♐▷ ${prefix}bcgc <broadcast grup>
+♐▷ ${prefix}profile
 ╰────────────────
 ╭────────────────  
-*𝐌𝐀𝐊𝐄𝐑*😝
-▷ ${prefix}wolf <text>
-▷ ${prefix}tfire <text>
-▷ ${prefix}ytgold <text>
-▷ ${prefix}ytsilver <text>
-▷ ${prefix}t3d  <text>
-▷ ${prefix}logoa <text&text>
-▷ ${prefix}phlogo <text&text>
-▷ ${prefix}write <text>
-▷ ${prefix}phcomment <text&text>
-▷ ${prefix}marvel <text&text>
-▷ ${prefix}leavest<text>
-▷ ${prefix}neon <text>
-▷ ${prefix}wall <text>
-▷ ${prefix}sticker
-▷ ${prefix}swm <author|packname>
-▷ ${prefix}take <author|packname>
-▷ ${prefix}fdeface
-▷ ${prefix}emoji
+   *𝐌𝐀𝐊𝐄𝐑*😝
+♐▷ ${prefix}wolf <text>
+♐▷ ${prefix}tfire <text>
+♐▷ ${prefix}ytgold <text>
+♐▷ ${prefix}ytsilver <text>
+♐▷ ${prefix}t3d  <text>
+♐▷ ${prefix}logoa <text&text>
+♐▷ ${prefix}phlogo <text&text>
+♐▷ ${prefix}write <text>
+♐▷ ${prefix}phcomment <text&text>
+♐▷ ${prefix}marvel <text&text>
+♐▷ ${prefix}leavest<text>
+♐▷ ${prefix}neon <text>
+♐▷ ${prefix}wall <text>
+♐▷ ${prefix}sticker
+♐▷ ${prefix}swm <author|packname>
+♐▷ ${prefix}take <author|packname>
+♐▷ ${prefix}fdeface
+♐▷ ${prefix}emoji
 ╰────────────────
 ╭────────────────  
-*𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐄𝐑*🐙🐙
-▷ ${prefix}toimg
-▷ ${prefix}tomp3
-▷ ${prefix}tomp4
-▷ ${prefix}slow
-▷ ${prefix}fast
-▷ ${prefix}reverse
-▷ ${prefix}tourl
-▷ ${prefix}tts
-▷ ${prefix}attp
+    *𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐄𝐑*🐙🐙
+♐▷ ${prefix}toimg
+♐▷ ${prefix}tomp3
+♐▷ ${prefix}tomp4
+♐▷ ${prefix}slow
+♐▷ ${prefix}fast
+♐▷ ${prefix}reverse
+♐▷ ${prefix}tourl
+♐▷ ${prefix}tts
+♐▷ ${prefix}attp
 ╰────────────────
 ╭────────────────   
-*𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 𝐌𝐄𝐍𝐔*🏷
-▷ ${prefix}youtube <url>
-▷ ${prefix}tiktok <url>
-▷ ${prefix}instagram <url>
-▷ ${prefix}twitter <url>
+   *𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 𝐌𝐄𝐍𝐔*🏷
+♐▷ ${prefix}youtube <url>
+♐▷ ${prefix}tiktok <url>
+♐▷ ${prefix}instagram <url>
+♐▷ ${prefix}twitter <url>
 ╰────────────────
 ╭────────────────
-*𝐔𝐏 𝐒𝐓𝐎𝐑𝐘*
-▷ ${prefix}upswtxts
-▷ ${prefix}upswimage
-▷ ${prefix}upswvideo
+    *𝐔𝐏 𝐒𝐓𝐎𝐑𝐘*
+♐▷ ${prefix}upswtxts
+♐▷ ${prefix}upswimage
+♐▷ ${prefix}upswvideo
 ╰────────────────
 ╭────────────────
-*𝐂𝐎𝐍𝐓𝐀𝐂𝐓*🤑
-▷ ${prefix}slander
-▷ ${prefix}slanderpc
-▷ ${prefix}contact
+   *𝐂𝐎𝐍𝐓𝐀𝐂𝐓*🤑
+♐▷ ${prefix}slander
+♐▷ ${prefix}slanderpc
+♐▷ ${prefix}contact
 ╰────────────────
 ╭────────────────  
-*𝐓𝐚𝐠*🥵
-▷ ${prefix}tagall
-▷ ${prefix}hidetag
-▷ ${prefix}contacttag
-▷ ${prefix}sticktag
-▷ ${prefix}mediatag
+    *𝐓𝐚𝐠*🥵
+♐▷ ${prefix}tagall
+♐▷ ${prefix}hidetag
+♐▷ ${prefix}contacttag
+♐▷ ${prefix}sticktag
+♐▷ ${prefix}mediatag
 ╰────────────────
 
 ╭────────────────
-*𝐅𝐔𝐍*👻
-▷ ${prefix}truth
-▷ ${prefix}dare
-▷ ${prefix}lesbiancheck
-▷ ${prefix}handsomecheck
-▷ ${prefix}gaycheck
-▷ ${prefix}beautifulcheck
-▷ ${prefix}uglycheck
-▷ ${prefix}uglycheck
-▷ ${prefix}slap
+    *𝐅𝐔𝐍*👻
+♐▷ ${prefix}truth
+♐▷ ${prefix}dare
+♐▷ ${prefix}lesbiancheck
+♐▷ ${prefix}handsomecheck
+♐▷ ${prefix}gaycheck
+♐▷ ${prefix}beautifulcheck
+♐▷ ${prefix}uglycheck
+♐▷ ${prefix}uglycheck
+♐▷ ${prefix}slap
 ╰────────────────
 ╭────────────────   
-*𝐎𝐓𝐇𝐄𝐑*🏅
-▷ ${prefix}ping
-▷ ${prefix}inspect
-▷ ${prefix}join
-▷ ${prefix}searchmessage <query>
-▷ ${prefix}get
-▷ ${prefix}ytsearch <query>
-▷ ${prefix}igstalk <query>
-▷ ${prefix}githubstalk <query>
-▷ ${prefix}tiktokstalk <query>
-▷ ${prefix}play <query>
-▷ ${prefix}video <query>
-▷ ${prefix}igstory <username>
-▷ ${prefix}twitter <link>
-▷ ${prefix}tiktok <link>
-▷ ${prefix}tiktokaudio <link>
-▷ ${prefix}fb <link>
-▷ ${prefix}brainly <query>
-▷ ${prefix}image <query>
-▷ ${prefix}anime <random>
-▷ ${prefix}pinterest <query>
-▷ ${prefix}comic <query>
-▷ ${prefix}lyrics <query>
-▷ ${prefix}chara <query>
-▷ ${prefix}playstore <query>
-▷ ${prefix}otaku <query>
+    *𝐎𝐓𝐇𝐄𝐑*🏅
+♐▷ ${prefix}ping
+♐▷ ${prefix}inspect
+♐▷ ${prefix}join
+♐▷ ${prefix}searchmessage <query>
+♐▷ ${prefix}get
+♐▷ ${prefix}ytsearch <query>
+♐▷ ${prefix}igstalk <query>
+♐▷ ${prefix}githubstalk <query>
+♐▷ ${prefix}tiktokstalk <query>
+♐▷ ${prefix}play <query>
+♐▷ ${prefix}video <query>
+♐▷ ${prefix}igstory <username>
+♐▷ ${prefix}twitter <link>
+♐▷ ${prefix}tiktok <link>
+♐▷ ${prefix}tiktokaudio <link>
+♐▷ ${prefix}fb <link>
+♐▷ ${prefix}brainly <query>
+♐▷ ${prefix}image <query>
+♐▷ ${prefix}anime <random>
+♐▷ ${prefix}pinterest <query>
+♐▷ ${prefix}comic <query>
+♐▷ ${prefix}lyrics <query>
+♐▷ ${prefix}chara <query>
+♐▷ ${prefix}playstore <query>
+♐▷ ${prefix}otaku <query>
 ╰────────────────
 ╭────────────────   
-*𝐒𝐈𝐌𝐏𝐋𝐄 𝐁𝐎𝐓*🎈
-▷ ${prefix}jadibot
-▷ ${prefix}stopjadibot
-▷ ${prefix}listbot
+   *𝐒𝐈𝐌𝐏𝐋𝐄 𝐁𝐎𝐓*🎈
+♐▷ ${prefix}jadibot
+♐▷ ${prefix}stopjadibot
+♐▷ ${prefix}listbot
 ╰────────────────
 ╭────────────────
-*𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐂𝐌𝐃*🤒
-▷ ${prefix}addcmd
-▷ ${prefix}delcmd
-▷ ${prefix}listcmd
+    *𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐂𝐌𝐃*🤒
+♐▷ ${prefix}addcmd
+♐▷ ${prefix}delcmd
+♐▷ ${prefix}listcmd
 ╰────────────────
 ╭────────────────  
-*𝐕𝐎𝐓𝐄 𝐌𝐄𝐍𝐔*
-▷ ${prefix}voting
-▷ ${prefix}delvote
-▷ ${prefix}vote
-▷ ${prefix}devote
+     *𝐕𝐎𝐓𝐄 𝐌𝐄𝐍𝐔*
+♐▷ ${prefix}voting
+♐▷ ${prefix}delvote
+♐▷ ${prefix}vote
+♐▷ ${prefix}devote
 ╰────────────────  
 ╭────────────────
- *𝐈𝐍𝐅𝐎 𝐁𝐎𝐓*
-▷ Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-▷ Runtime : ${runtime(process.uptime())}
-▷ Hit Today : ${hit_today.length} Hit
-▷ Total Hit : ${totalhit} Hit
-▷ Total Chat : ${totalchat.length} Chat
+     *𝐈𝐍𝐅𝐎 𝐁𝐎𝐓*
+♐▷ Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
+♐▷ Runtime : ${runtime(process.uptime())}
+♐▷ Hit Today : ${hit_today.length} Hit
+♐▷ Total Hit : ${totalhit} Hit
+♐▷ Total Chat : ${totalchat.length} Chat
 ╰────────────────
    ╭────────────────
-  *🥶ᴍᴏᴅ ʙʏ ɢɪɴɢᴇʀsᴋᴇᴛᴄʜʏ>🥶*
+  *🥶ᴍᴏᴅ ʙʏ ɢɪɴɢᴇʀsᴋᴇᴛᴄʜʏ🥶*
    ╰────────────────
 `;
-        sendButImage(from, menu, "SKETCHY BOT▷", thumb, [
+        sendButImage(from, menu, "SKETCHY BOT♐▷", thumb, [
           {
             buttonId: `${prefix}ping`,
             buttonText: {
@@ -1485,7 +1497,7 @@ ${readmore}
 					} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 					}
-					 profile = `╭─「 *💖YOUR PROFILE💖* 」\n│▷ *Name:* ${pushname}\n│▷ *PM Link:* wa.me/${sender.split("@")[0]}\n╰──────────────────`
+					 profile = `╭─「 *💖YOUR PROFILE💖* 」\n│♐▷ *Name:* ${pushname}\n│♐▷ *PM Link:* wa.me/${sender.split("@")[0]}\n╰──────────────────`
 					buffer = await getBuffer(ppimg)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: profile})
 					break;
@@ -1629,7 +1641,7 @@ ${members > 1 ? `${members - reads.length - deliveries.length} tersisa` : ""}
         buffergbl = await getBuffer(ppUrl);
         client.sendMessage(from, buffergbl, image, {
           quoted: mek,
-          caption: `\`\`\`「 Group Info 」\`\`\`\n*▷> Name* : ${groupName}\n*▷> Member* : ${groupMembers.length}\n*▷> Admin* : ${groupAdmins.length}\n*▷> Description* : \n${groupDesc}`,
+          caption: `\`\`\`「 Group Info 」\`\`\`\n*♐▷> Name* : ${groupName}\n*♐▷> Member* : ${groupMembers.length}\n*♐▷> Admin* : ${groupAdmins.length}\n*♐▷> Description* : \n${groupDesc}`,
         });
         break;
       // Demote Admins
@@ -2005,28 +2017,28 @@ Reminder activated successfully!
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/tfire?text=${F}&apikey=${zeksApikey}`)                   
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;               
        case "ytgold":  
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(8)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "ytsilver":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(10)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "t3d":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(5)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "logoa":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy&lol*`)
@@ -2035,7 +2047,7 @@ Reminder activated successfully!
 				   var F2 = F.split("&")[1]; 
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/logoaveng?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "phlogo":  
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy&lol*`)
@@ -2044,7 +2056,7 @@ Reminder activated successfully!
 				   var F2 = F.split("&")[1]; 
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/phlogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "marvel":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy&lol*`)
@@ -2053,35 +2065,35 @@ Reminder activated successfully!
 				   var F2 = F.split("&")[1]; 
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/marvellogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "leavest":  
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(9)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;                    
        case "write":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;
        case "neon":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi? `, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵? `, quoted: mek})
                    break;                    
        case "wall":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/breakwall?apikey=${zeksApikey}&text=${F}`)
-                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi!`, quoted: mek})
+                   client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵!`, quoted: mek})
                    break;
                    case "phcomment":
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Sketchy&lol*`)
@@ -2090,17 +2102,17 @@ Reminder activated successfully!
 				   var F2 = F.split("&")[1]; 
                    reply(mess.wait)
                    anu = await getBuffer(`${ApiZeks}/api/phub?apikey=${zeksApikey}&img=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&username=${F1}&msg=${F2}`)
-                  client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nAb bolo mast hai ki nahi?`, quoted: mek})
+                  client.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\n▷Now tell me whether it is cool or not🐼🥵?`, quoted: mek})
                    break;
               //------------------< Fun features >-------------------
               case "tictactoe":
               case "truth":
 					// source code by Sketchy⛔
                  if (!isGroup) return reply( mess.only.group);
-					const trut =['What song do you sing most in the shower','Have you ever had a near-death experience','When was the last time you were really angry.. Why','Who is the last person who called you','Do you have any hidden talents. What are they','What word do you hate the most','What is the last YouTube video you watched','What is the last thing you Googled','Who in this group would you want to swap lives with for a week','What is the scariest thing thats ever happened to you','Have you ever farted and blamed it on someone else','When is the last time you made someone else cry','Have you ever ghosted a friend','Have you ever seen a dead body','Which of your family members annoys you the most and why','If you had to delete one app from your phone, which one would it be','What app do you waste the most time on','Have you ever faked sick to get home from school','What is the most embarrassing item in your room','What five items would you bring if you got stuck on a desert island','Have you ever laughed so hard you peed your pants','Do you smell your own farts','have u ever peed on the bed while sleeping 🤣🤣','What is the biggest mistake you have ever made','Have you ever cheated in an exam','What is the worst thing you have ever done','When was the last time you cried','whom do you love the most among ur parents','do u sometimes put ur finger in ur nosetril🤣','who was ur crush during the school days','tell honestly, do u like any boy in this grup','have you ever liked anyone? how long?','do you have gf/bf','what is your biggest fear?','have you ever liked someone and felt that person likes you too?','What is the name of your ex-boyfriend of your friend that you once liked quietly?','ever did you steal your mothers money or your fathers money','what makes you happy when you are sad','do you like someone who is in this grup? if you then who?','have you ever been cheated on by people?','the most feared thing','who is the most important person in your life','what proud things did you get this year','who is the person who can make you happy when u r sad','who is the person who ever made you feel uncomfortable','have you ever lied to your parents','do you still like ur ex','who do you like to play together with?','have you ever stolen big thing in ur life? the reason why?','Mention the incident that makes you hurt that you still remember','what achievements have you got this year?','what was your worst habit at school?','do you love the bot creator, Sketchy?▷','have you ever thought of taking revenge from ur teacher?','do you like current prime minister of ur country','you non veg or veg','if you could be invisible, what is the first thing you would do','what is a secret you kept from your parents','Who is your secret crush','whois the last person you creeped on social media','If a genie granted you three wishes, what would you ask for','What is your biggest regret','What animal do you think you most look like','How many selfies do you take a day','What was your favorite childhood show','if you could be a fictional character for a day, who would you choose','whom do you text the most','What is the biggest lie you ever told your parents','Who is your celebrity crush','Whats the strangest dream you have ever had','do you play pubg, if you then send ur id number']
+					const trut =['What song do you sing most in the shower','Have you ever had a near-death experience','When was the last time you were really angry.. Why','Who is the last person who called you','Do you have any hidden talents. What are they','What word do you hate the most','What is the last YouTube video you watched','What is the last thing you Googled','Who in this group would you want to swap lives with for a week','What is the scariest thing thats ever happened to you','Have you ever farted and blamed it on someone else','When is the last time you made someone else cry','Have you ever ghosted a friend','Have you ever seen a dead body','Which of your family members annoys you the most and why','If you had to delete one app from your phone, which one would it be','What app do you waste the most time on','Have you ever faked sick to get home from school','What is the most embarrassing item in your room','What five items would you bring if you got stuck on a desert island','Have you ever laughed so hard you peed your pants','Do you smell your own farts','have u ever peed on the bed while sleeping 🤣🤣','What is the biggest mistake you have ever made','Have you ever cheated in an exam','What is the worst thing you have ever done','When was the last time you cried','whom do you love the most among ur parents','do u sometimes put ur finger in ur nosetril🤣','who was ur crush during the school days','tell honestly, do u like any boy in this grup','have you ever liked anyone? how long?','do you have gf/bf','what is your biggest fear?','have you ever liked someone and felt that person likes you too?','What is the name of your ex-boyfriend of your friend that you once liked quietly?','ever did you steal your mothers money or your fathers money','what makes you happy when you are sad','do you like someone who is in this grup? if you then who?','have you ever been cheated on by people?','the most feared thing','who is the most important person in your life','what proud things did you get this year','who is the person who can make you happy when u r sad','who is the person who ever made you feel uncomfortable','have you ever lied to your parents','do you still like ur ex','who do you like to play together with?','have you ever stolen big thing in ur life? the reason why?','Mention the incident that makes you hurt that you still remember','what achievements have you got this year?','what was your worst habit at school?','do you love the bot creator, Sketchy?♐▷','have you ever thought of taking revenge from ur teacher?','do you like current prime minister of ur country','you non veg or veg','if you could be invisible, what is the first thing you would do','what is a secret you kept from your parents','Who is your secret crush','whois the last person you creeped on social media','If a genie granted you three wishes, what would you ask for','What is your biggest regret','What animal do you think you most look like','How many selfies do you take a day','What was your favorite childhood show','if you could be a fictional character for a day, who would you choose','whom do you text the most','What is the biggest lie you ever told your parents','Who is your celebrity crush','Whats the strangest dream you have ever had','do you play pubg, if you then send ur id number']
 					const ttrth = trut[Math.floor(Math.random() * trut.length)]
 					truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
-					client.sendMessage(from, truteh, image, { caption: '*Truth (juth bolenge to paap lagega)*\n\n'+ ttrth, quoted: mek })
+					client.sendMessage(from, truteh, image, { caption: '*Truth (▷USEME UKWELI MTUPU NANII!!😠🥵)*\n\n'+ ttrth, quoted: mek })
 					break;
 					case "dare":
 					// source code by Sketchy⛔
@@ -2108,7 +2120,7 @@ Reminder activated successfully!
 					const dare =['Act like a chicken in front of ur parents','Pick up a random book and read one page out loud in a ','Open your front door and howl like a wolf for 10 seconds','Take an embarrassing selfie and paste it on your profile picture','Let the group choose a word and a well-known song. You have to sing that song and send it in voice note','Walk on your elbows and knees for as long as you can','sing national anthem in voice note','Breakdance for 30 seconds in the sitting room🤣','Tell the saddest story you know','make a twerk dance video and put it on status for 5mins','Eat a raw piece of garlic','Show the last five people you texted and what the messages said','put your full name on status for 5hrs','make a short dance video without any filter just with a music and put it on ur status for 5hrs','call ur bestie, bitch','put your photo without filter on ur status for 10mins','say i love oli london in voice note🤣🤣','Send a message to your ex and say I still like you','call Crush/girlfriend/bestie now and screenshot here','pop to one of the group member personal chat and Say you ugly bustard','say YOU ARE BEAUTIFUL/HANDSOME to one of person who is in top of ur pinlist or the first person on ur chatlist','send voice notes and say, can i call u baby, if u r boy tag girl/if girl tag boy','write i love you (random grup member name, who is online) in personal chat, (if u r boy write girl name/if girl write boy name) take a snap of the pic and send it here','use any bollywood actor photo as ur pfp for 3 days','put your crush photo on status with caption, this is my crush','change name to I AM GAY for 5 hours','chat to any contact in whatsapp and say i will be ur bf/gf for 5hours','send voice note says i hv crush on you, want to be my girlfriend/boyfriend or not? to any random person from the grup(if u girl choose boy, if boy choose girl','slap ur butt hardly send the sound of slap through voice note😂','state ur gf/bf type and send the photo here with caption, ugliest girl/boy in the world','shout bravooooooooo and send here through voice note','snap your face then send it here','Send your photo with a caption, i am lesbian','shout using harsh words and send it here through vn','shout you bastard in front of your mom/papa','change the name to i am idiot for 24 hours','slap urself firmly and send the sound of slap through voice note😂','say i love the bot owner Sketchy through voice note','send your gf/bf pic here','make any tiktok dance challenge video and put it on status, u can delete it after 5hrs',' breakup with your best friend for 5hrs without telling him/her that its a dare','tell one of your frnd that u love him/her and wanna marry him/her, without telling him/her that its a dare','say i love depak kalal through voice note','write i am feeling horny and put it on status, u can delete it only after 5hrs','write i am lesbian and put it on status, u can delete only after 5hrs',' kiss your mommy or papa and say i love you😌','put your father name on status for 5hrs','send abusive words in any grup, excepting this grup, and send screenshot proof here']
 					const der = dare[Math.floor(Math.random() * dare.length)]
 					truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
-					client.sendMessage(from, truteh, image, { quoted: mek, caption: '*Dare (nhi karenge to paap lagega)*\n\n'+ der })
+					client.sendMessage(from, truteh, image, { quoted: mek, caption: '*Dare (▷Hakuna kukataa Dare😠🥵)*\n\n'+ der })
 					break;
 					                case "uglycheck":
 					// source code by Sketchy⛔
@@ -3818,17 +3830,17 @@ ${
 		          if (budy.includes(`bye `)) {
                   reply(`byy my frnd, take care 😽😽`)
                   }
-		          if (budy.includes(`koi hai?`)) {
-                  reply(`ha mai hun na😹😹`)
+		          if (budy.includes(`bot?`)) {
+                  reply(`Kumbaff usitaje taje bot Hapa😹😹`)
                   }
 		          if (budy.includes(`Hello`)) {
-                  reply(`Annyeonghaseo🌿🖐️ ${pushname}`)
+                  reply(`Hello Niaje bana😂🌿🖐️ ${pushname}`)
                   }
                   if (budy.includes(`@254792893310`)) {
                   reply(`sorry dude ginger is busy🤔`)
                   }
                   if (budy.includes(`Hi`)) {
-                  reply(`ha dost,🙃 how are you?`)
+                  reply(`hey there,🙃 how are you?`)
                   }
                   if (budy.includes(`Afternoon`)) {
                   reply(`gud afternun ${pushname}, 😚 how is the day goin?`)

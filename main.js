@@ -21,7 +21,7 @@ nocache("./index.js", (module) => console.log(`${module} is now updated!`));
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2123, 8];
-  client.browserDescription = ["GINGER BOT!", "Chrome", "3.0"];
+  client.browserDescription = ["Subscribe to Ginger ok!!", "Chrome", "3.0"];
   console.log(banner.string);
   client.on("qr", () => {
     console.log(
@@ -95,7 +95,7 @@ const starts = async (client = new WAConnection()) => {
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Hi,Hellow Friend👻!", "conversation");
+        client.sendMessage(anu.jid, "hey dost!", "conversation");
       }
       if (anu.action == "add" && !mem.includes(client.user.jid)) {
         mdata = await client.groupMetadata(anu.jid);
@@ -104,7 +104,7 @@ const starts = async (client = new WAConnection()) => {
         let v = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
         time_wel = moment.tz("Africa/Nairobi").format("HH:mm");
-        teks = `*Welcome User* @${num.split('@')[0]} 👋\n*${mdata.subject}* How are youi!!\n\nAre u a boy or girl? How is corona?\n\njust follow group rules and respect Admins\n\nWelcome to our Group@${num.split('@')[0]} 👿 *Have a Lovely time Here pal* 👻😘😘 :) `;
+        teks = `*hey* @${num.split('@')[0]} 👋\n*${mdata.subject}* Welcome!!\n\nAre u a boy or girl? karibu sanaaa!!!!?\n\nStick to Group rules and respect Admins\n\nand yes my friend @${num.split('@')[0]} 👿 *Have a Lovely time Here pal* 👻😘😘 :) `;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -141,7 +141,7 @@ const starts = async (client = new WAConnection()) => {
         anu_user = w.vname || w.notify || num.split("@")[0];
         time_wel = moment.tz("Africa/Nairobi").format("HH:mm");
         memeg = mdata.participants.length;
-        out = `*BYE BYE @${num.split('@')[0]}*\n\nDont you ever come back again Here👿😈😠;
+        out = `*ByeBye @${num.split('@')[0]}*\n\nwe will never miss you`;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -150,7 +150,7 @@ const starts = async (client = new WAConnection()) => {
           )}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`
         );
         buttons = [
-          { buttonId: `y`, buttonText: { displayText: "Bye bye kwendaaa!!!" }, type: 1 },
+          { buttonId: `y`, buttonText: { displayText: "Ba bye!" }, type: 1 },
         ];
         imageMsg = (
           await client.prepareMessageMedia(buff, "imageMessage", {
@@ -245,7 +245,7 @@ const starts = async (client = new WAConnection()) => {
       m.key.remoteJid,
       `\`\`\`「 Anti Delete 」\`\`\`
   •> Name : @${m.participant.split("@")[0]}
-  •> Deleted message has been sent to me Friend👻!
+  •> Deleted Message has been sent below my friend!
   •> Type : ${type}`,
       MessageType.text,
       { quoted: m.message, contextInfo: { mentionedJid: [m.participant] } }
@@ -278,7 +278,7 @@ const starts = async (client = new WAConnection()) => {
  * @param {function} cb <optional>
  */
 function nocache(module, cb = () => {}) {
-  console.log("Module", `'${module}'`, "all set to go! subscribe to GingerBreadSketchy for more updates");
+  console.log("Module", `'${module}'`, "all set to go! Subscribe to Ginger for more updates");
   fs.watchFile(require.resolve(module), async () => {
     await uncache(require.resolve(module));
     cb(module);

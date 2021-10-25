@@ -104,7 +104,7 @@ const starts = async (client = new WAConnection()) => {
         let v = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
         time_wel = moment.tz("Africa/Nairobi").format("HH:mm");
-        teks = `*hey* @${num.split('@')[0]} 👋\n*${mdata.subject}* Welcome!!\n\nAre u a boy or girl? karibu sanaaa!!!!?\n\nStick to Group rules and respect Admins\n\nand yes my friend @${num.split('@')[0]} 👿 *Have a Lovely time Here pal* 👻😘😘 :) `;
+        teks = `*hey* @${num.split('@')[0]} 👋\n*${mdata.subject}* Welcome!!\n\nAre u a boy or girl? karibu sanaaa!!!!?\n\nStick to Group rules and respect Admins\n\nand yes my friend @${num.split('@')[0]} apana parichay dena na bhoolen :) `;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -122,7 +122,7 @@ const starts = async (client = new WAConnection()) => {
         ).imageMessage;
         buttonsMessage = {
           contentText: `${teks}`,
-          footerText: "𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☕",
+          footerText: "❏ *SketchyBot ke* ❏☕",
           imageMessage: imageMsg,
           buttons: buttons,
           headerType: 4,
@@ -159,7 +159,7 @@ const starts = async (client = new WAConnection()) => {
         ).imageMessage;
         buttonsMessage = {
           contentText: `${out}`,
-          footerText: "𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚 ☕",
+          footerText: "❏ *SketchyBot ke* ❏ ☕",
           imageMessage: imageMsg,
           buttons: buttons,
           headerType: 4,

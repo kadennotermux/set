@@ -95,7 +95,7 @@ const starts = async (client = new WAConnection()) => {
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "hey dost!", "conversation");
+        client.sendMessage(anu.jid, "❏ *Waaaagwan Congrats you have added Sketchy bot to ur Group* ❏!", "conversation");
       }
       if (anu.action == "add" && !mem.includes(client.user.jid)) {
         mdata = await client.groupMetadata(anu.jid);
@@ -104,7 +104,7 @@ const starts = async (client = new WAConnection()) => {
         let v = client.contacts[num] || { notify: num.replace(/@.+/, "") };
         anu_user = v.vname || v.notify || num.split("@")[0];
         time_wel = moment.tz("Africa/Nairobi").format("HH:mm");
-        teks = `*hey* @${num.split('@')[0]} 👋\n*${mdata.subject}* Welcome!!\n\nAre u a boy or girl? karibu sanaaa!!!!?\n\nStick to Group rules and respect Admins\n\nand yes my friend @${num.split('@')[0]} apana parichay dena na bhoolen :) `;
+        teks = `*❏🥵Hey There* @${num.split('@')[0]} 👋❏ *SketchyBot ke* ❏ Welcomes you To Our Group😋\n*${mdata.subject}* Welcome!!\n\nAre u a boy or girl? karibu sanaaa!!!!?\n\nStick to Group rules and respect Admins\n\nand yes my friend @${num.split('@')[0]} ❏Feel at Home❏ :) `;
         buff = await getBuffer(
           `http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${
             groupMembers.length
@@ -113,7 +113,7 @@ const starts = async (client = new WAConnection()) => {
           )}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`
         );
         buttons = [
-          { buttonId: `y`, buttonText: { displayText: "Welcome👋" }, type: 1 },
+          { buttonId: `y`, buttonText: { displayText: "Welcome To Our Group" }, type: 1 },
         ];
         imageMsg = (
           await client.prepareMessageMedia(buff, "imageMessage", {

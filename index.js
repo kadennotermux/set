@@ -570,7 +570,7 @@ budy =
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠", //Love your name
+            title: "☠❏ *Sketchy Mafia* ❏☠", //Love your name
             description: "Sketchy-BOT",
             currencyCode: "ksh",
             priceAmount1000: "2000",
@@ -970,7 +970,8 @@ budy =
       case "help":
       case "?":
         var menu = `
-ʜᴇʏ ᴛʜᴀɴᴋꜱ 4 ᴄʜᴏᴏꜱɪɴɢ ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ🙂 @${senderr.split("@")[0]}
+ʜᴇʏ ᴛʜᴀɴᴋꜱ 4 ᴄʜᴏᴏꜱɪɴɢ ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ😎
+ @${senderr.split("@")[0]}
 ╭────────────────
 ⦿ IG: @gingerbreadsketchy
 ⦿ USER bot
@@ -984,7 +985,7 @@ budy =
 🇰🇪  Made 4 Kenyans with 💖🇰🇪
 ────────────────
 ╭──────────────── 
-   😈☠𝐆𝐢𝐧𝐠𝐞𝐫𝐌𝐚𝐟𝐢𝐚☠😈
+   😈❏ *Sketchy Mafia* ❏😈
 ╰──────────────── 
 ${readmore}
 ╭────────────────
@@ -1158,11 +1159,12 @@ ${readmore}
 ♐▷ Total Hit : ${totalhit} Hit
 ♐▷ Total Chat : ${totalchat.length} Chat
 ╰────────────────
+         ❏ *ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ* ❏
    ╭────────────────
-  *🥶ᴍᴏᴅ ʙʏ ɢɪɴɢᴇʀsᴋᴇᴛᴄʜʏ🥶*
+  *😈ᴍᴏᴅ ʙʏ ɢɪɴɢᴇʀsᴋᴇᴛᴄʜʏ😈*
    ╰────────────────
 `;
-        sendButImage(from, menu, "SKETCHY BOT♐▷", thumb, [
+        sendButImage(from, menu, "❏ *ꜱᴋᴇᴛᴄʜʏ ʙᴏᴛ* ❏", thumb, [
           {
             buttonId: `${prefix}ping`,
             buttonText: {
@@ -1181,7 +1183,7 @@ ${readmore}
 
         break;
       case "owner":
-        sendKontak(from, owner, "SKETCHY", "Unicorn");
+        sendKontak(from, owner, "GingerBreadSketchy", "Unicorn");
         break;
       //------------------< Sticker Cmd >-------------------
       case "addcmd":

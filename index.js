@@ -1211,7 +1211,7 @@ ${readmore}
         fakestatus("Done!");
         break;
       case "listcmd":
-        teksnyee = `\`\`\`「 LIST STICKER CMD 」\`\`\``;
+        teksnyee = `\`\`\`「  LIST STICKER CMD 」\`\`\``;
         cemde = [];
         for (let i of _scommand) {
           cemde.push(i.id);
@@ -1221,7 +1221,7 @@ ${readmore}
         break;
       //------------------< Anti-antian feature >-------------------
       case "antilink":
-        if (!isGroup) return reply("Keval grups mein");
+        if (!isGroup) return reply("Am not Group Admin");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("👿 *Only Sketchy Admins Can use This* 👿");
         if (args[0] == "on") {
           if (isAntilink) return reply("Activated!!");
@@ -1258,7 +1258,7 @@ ${readmore}
         }
         break;
       case "antihidetag":
-        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroup) return reply("AM NOT GROUP ADMIN👿👿");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("only admins bro");
         if (args[0] == "on") {
           if (isAntihidetag) return reply("activated!!");
@@ -1300,7 +1300,7 @@ ${readmore}
         }
         break;
       case "antiviewonce":
-        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroup) return reply("AM NOT GROUP ADMIN👿👿");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("only admins");
         if (args[0] == "on") {
           if (isAntiviewonce) return reply("Activated!!");
@@ -1337,7 +1337,7 @@ ${readmore}
         break;
 
       case "autojoin":
-        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroup) return reply("AM NOT GROUP ADMIN👿👿");
         if (!mek.key.fromMe) return reply("keval maalik hee kar sakata hai");
         if (args[0] == "on") {
           if (autojoin == true) return reply("Activated!!");
@@ -1366,7 +1366,7 @@ ${readmore}
         }
         break;
       case "antivirus":
-        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroup) return reply("AM NOT GROUP ADMIN👿👿");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("keval admins 😉");
         if (args[0] == "on") {
           if (isAntivirtex) return reply("Activated!!");
@@ -1400,7 +1400,7 @@ ${readmore}
         }
         break;
       case "kickarea":
-        if (!isGroup) return reply("Keval groups mein");
+        if (!isGroup) return reply("AM NOT GROUP ADMIN👿👿");
         if (!isGroupAdmins && !mek.key.fromMe) return reply("keval admins 😉");
         if (args[0] == "on") {
           if (isKickarea) return reply("Activated!!");
@@ -1482,7 +1482,7 @@ ${readmore}
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `*~>* @${mem.jid.split('@')[0]}\n`
+						teks += `*❏↪* @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -1511,7 +1511,7 @@ ${readmore}
           ];
           client.reply(
             m.chat,
-            "┌─〔 Online List 〕\n" +
+            "┌─〔 ❏ *Sketchy Online List* ❏ 〕\n" +
               online.map((v) => "├ @" + v.replace(/@.+/, "")).join`\n` +
               "\n└────",
             m,
@@ -3345,7 +3345,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         aramat = aramas.all;
         var tbuff = await getBuffer(aramat[0].image);
         var ytresult = "";
-        ytresult += "「 *YOUTUBE SEARCH* 」";
+        ytresult += "「 *SKETCHY YOUTUBE SEARCH* 」";
         ytresult += "\n________________________\n\n";
         aramas.all.map((video) => {
           ytresult += "❏ Title: " + video.title + "\n";
